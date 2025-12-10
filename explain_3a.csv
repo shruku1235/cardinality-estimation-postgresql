@@ -1,0 +1,10 @@
+node_type,relation,estimated_rows,actual_rows,q_error
+Aggregate,,1,1,1.0
+Nested Loop,,71,206,2.9014084507042255
+Nested Loop,,175,2235,12.771428571428572
+Nested Loop,,438,12951,29.568493150684933
+Seq Scan,keyword,13,30,2.3076923076923075
+Bitmap Heap Scan,movie_keyword,303,432,1.4257425742574257
+Bitmap Index Scan,,303,432,1.4257425742574257
+Index Scan,title,1,0,inf
+Index Scan,movie_info,1,0,inf

@@ -1,0 +1,8 @@
+node_type,relation,estimated_rows,actual_rows,q_error
+Aggregate,,1,1,1.0
+Gather,,2,3,1.5
+Aggregate,,1,1,1.0
+Hash Join,,3281,2573,1.2751651768363779
+Seq Scan,lineitem,3281,2573,1.2751651768363779
+Hash,,20000,20000,1.0
+Seq Scan,part,20000,20000,1.0

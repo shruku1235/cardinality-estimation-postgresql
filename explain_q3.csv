@@ -1,0 +1,10 @@
+node_type,relation,estimated_rows,actual_rows,q_error
+Sort,,600572,150000,4.0038133333333334
+Aggregate,,600572,150000,4.0038133333333334
+Hash Join,,600572,600572,1.0
+Hash Join,,600572,600572,1.0
+Seq Scan,lineitem,600572,600572,1.0
+Hash,,150000,150000,1.0
+Seq Scan,orders,150000,150000,1.0
+Hash,,15000,15000,1.0
+Index Only Scan,customer,15000,15000,1.0

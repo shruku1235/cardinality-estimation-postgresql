@@ -1,0 +1,23 @@
+node_type,relation,estimated_rows,actual_rows,q_error
+Aggregate,,1,1,1.0
+Nested Loop,,1,33,33.0
+Nested Loop,,1,33,33.0
+Nested Loop,,1,1314,1314.0
+Nested Loop,,1,87986607,87986607.0
+Nested Loop,,1,978322,978322.0
+Nested Loop,,1,28583,28583.0
+Nested Loop,,1,73560,73560.0
+Nested Loop,,1,85941,85941.0
+Hash Join,,190,135086,710.978947368421
+Seq Scan,complete_cast,135086,135086,1.0
+Hash,,1,2,2.0
+Seq Scan,comp_cast_type,1,2,2.0
+Memoize,,1,1,1.0
+Index Scan,comp_cast_type,1,0,inf
+Index Scan,title,1,1,1.0
+Index Scan,kind_type,1,0,inf
+Index Scan,movie_keyword,47,34,1.3823529411764706
+Index Scan,cast_info,35,90,2.5714285714285716
+Index Scan,char_name,1,0,inf
+Index Scan,keyword,1,0,inf
+Index Only Scan,name,1,1,1.0

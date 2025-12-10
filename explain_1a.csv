@@ -1,0 +1,14 @@
+node_type,relation,estimated_rows,actual_rows,q_error
+Aggregate,,1,1,1.0
+Gather,,2,142,71.0
+Nested Loop,,1,47,47.0
+Nested Loop,,1,47,47.0
+Nested Loop,,130,49,2.6530612244897958
+Hash Join,,5089,83,61.31325301204819
+Seq Scan,movie_info_idx,575015,460012,1.25
+Hash,,1,1,1.0
+Seq Scan,info_type,1,1,1.0
+Index Scan,movie_companies,1,1,1.0
+Memoize,,1,1,1.0
+Index Scan,company_type,1,1,1.0
+Index Scan,title,1,1,1.0

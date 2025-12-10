@@ -1,0 +1,6 @@
+node_type,relation,estimated_rows,actual_rows,q_error
+Aggregate,,6,4,1.5
+Gather Merge,,12,12,1.0
+Sort,,6,4,1.5
+Aggregate,,6,4,1.5
+Seq Scan,lineitem,250214,200191,1.2498763680684946

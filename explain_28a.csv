@@ -1,0 +1,31 @@
+node_type,relation,estimated_rows,actual_rows,q_error
+Aggregate,,1,1,1.0
+Nested Loop,,1,4803,4803.0
+Nested Loop,,1,6156,6156.0
+Nested Loop,,1,6833,6833.0
+Nested Loop,,1,5608,5608.0
+Nested Loop,,1,5756,5756.0
+Nested Loop,,1,15957,15957.0
+Nested Loop,,30,1884630,62821.0
+Nested Loop,,3,24442,8147.333333333333
+Nested Loop,,3,24442,8147.333333333333
+Nested Loop,,5,27109,5421.8
+Nested Loop,,20,33339,1666.95
+Seq Scan,info_type,1,1,1.0
+Nested Loop,,2246,98408,43.81478183437222
+Hash Join,,761,49145,64.57950065703022
+Seq Scan,complete_cast,135086,135086,1.0
+Hash,,4,1,4.0
+Seq Scan,comp_cast_type,4,1,4.0
+Index Scan,movie_info_idx,3,2,1.5
+Index Scan,movie_companies,1,1,1.0
+Index Scan,company_name,1,1,1.0
+Memoize,,1,1,1.0
+Index Only Scan,company_type,1,1,1.0
+Index Scan,movie_keyword,47,77,1.6382978723404256
+Index Scan,keyword,1,0,inf
+Index Scan,title,1,0,inf
+Index Scan,kind_type,1,1,1.0
+Index Scan,movie_info,2,1,2.0
+Index Scan,info_type,1,1,1.0
+Index Scan,comp_cast_type,1,1,1.0

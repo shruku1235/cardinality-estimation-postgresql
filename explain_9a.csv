@@ -1,0 +1,19 @@
+node_type,relation,estimated_rows,actual_rows,q_error
+Aggregate,,1,1,1.0
+Nested Loop,,1,121,121.0
+Nested Loop,,1,123,123.0
+Nested Loop,,1,139,139.0
+Nested Loop,,1,387,387.0
+Gather,,1,425,425.0
+Nested Loop,,1,142,142.0
+Nested Loop,,20,142,7.1
+Nested Loop,,9,519,57.666666666666664
+Seq Scan,name,40,2256,56.4
+Index Scan,aka_name,2,0,inf
+Index Scan,cast_info,11,0,inf
+Memoize,,1,1,1.0
+Index Scan,role_type,1,1,1.0
+Index Scan,char_name,1,1,1.0
+Index Scan,title,1,0,inf
+Index Scan,movie_companies,1,1,1.0
+Index Scan,company_name,1,1,1.0

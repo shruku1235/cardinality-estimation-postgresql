@@ -1,0 +1,18 @@
+node_type,relation,estimated_rows,actual_rows,q_error
+Aggregate,,1,1,1.0
+Nested Loop,,1,32,32.0
+Nested Loop,,1,32,32.0
+Nested Loop,,1,14,14.0
+Nested Loop,,93,17559,188.80645161290323
+Nested Loop,,803,105262,131.08592777085929
+Nested Loop,,23,1467,63.78260869565217
+Hash Join,,169,5186,30.68639053254438
+Seq Scan,movie_link,29997,29997,1.0
+Hash,,4,1,4.0
+Seq Scan,link_type,4,1,4.0
+Index Scan,title,1,0,inf
+Index Scan,cast_info,35,72,2.057142857142857
+Index Scan,name,1,0,inf
+Index Scan,person_info,1,0,inf
+Index Scan,aka_name,2,2,1.0
+Index Scan,info_type,1,1,1.0

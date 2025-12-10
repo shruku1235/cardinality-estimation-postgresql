@@ -1,0 +1,18 @@
+node_type,relation,estimated_rows,actual_rows,q_error
+Sort,,1,1000,1000.0
+Aggregate,,1,1000,1000.0
+Sort,,1,9901,9901.0
+Nested Loop,,1,9901,9901.0
+Nested Loop,,1,9901,9901.0
+Nested Loop,,1,20145,20145.0
+Gather,,1,20145,20145.0
+Hash Join,,1,6715,6715.0
+Hash Join,,1,11246,11246.0
+Seq Scan,lineitem,83413,126603,1.5177849975423494
+Hash,,83413,126603,1.5177849975423494
+Seq Scan,lineitem,83413,126603,1.5177849975423494
+Hash,,250238,200191,1.249996253577833
+Seq Scan,lineitem,250238,200191,1.249996253577833
+Index Scan,supplier,1,1,1.0
+Index Scan,orders,1,0,inf
+Index Only Scan,nation,1,1,1.0
